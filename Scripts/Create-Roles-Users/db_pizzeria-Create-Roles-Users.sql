@@ -21,12 +21,6 @@ CREATE ROLE 'administrateurs_pizzeria';
 -- Tous les privilèges sur db_pizzeria
 GRANT ALL PRIVILEGES ON db_pizzeria.* TO 'administrateurs_pizzeria' WITH GRANT OPTION;
 
--- Gestion des utilisateurs
-GRANT CREATE USER ON *.* TO 'administrateurs_pizzeria';
-GRANT RELOAD ON *.* TO 'administrateurs_pizzeria';
-GRANT SHOW DATABASES ON *.* TO 'administrateurs_pizzeria';
-
-
 
 -- Créer le role manager
 CREATE ROLE 'managers_pizzeria';
