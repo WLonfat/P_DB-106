@@ -3,7 +3,7 @@ LAST_DATE_FULL="2026-01-09 00:56:00"
 
 # Fichier de sortie
 DATE=$(date +"%Y-%m-%d_%Hh%M")
-File="/var/lib/mysql-files/Scripts/Backup-Restore/backup_db_pizzeria_diff_${DATE}.sql"
+File="/scripts/Scripts/Backup-Restore/backup_db_pizzeria_diff_${DATE}.sql"
 
 echo "USE db_pizzeria;" > $File
 
