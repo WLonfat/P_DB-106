@@ -14,7 +14,7 @@ Avant de commencer, assurez-vous que :
 2. Dézipper le fichier **dans le disque C:**  
    ⚠️ *Ne pas le dézipper sur un disque externe.*
 3. Ouvrir le dossier **P_DB-106**.
-4. Ouvrir **Git Bash**.
+4. Ouvrir **Git Bash** ou le **CMD**.
 5. Se positionner dans le répertoire **P_DB-106** avec **cd**
 6. Lancer la création des conteneurs Docker avec la commande `docker-compose up -d`.
 7. À la fin de l’exécution, exécuter la commande `docker ps` pour vérifier que **2 conteneurs** sont actifs.
